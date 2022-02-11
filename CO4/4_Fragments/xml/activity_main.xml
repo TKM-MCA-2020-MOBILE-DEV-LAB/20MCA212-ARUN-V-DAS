@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="416dp"
+        android:layout_height="733dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="111dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:text="Red"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="111dp"
+            android:layout_height="52dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="80dp"
+            android:text="Blue"
+            android:textSize="25sp" />
+    </FrameLayout>
+</RelativeLayout>
